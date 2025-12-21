@@ -7,6 +7,11 @@ Group:		Networking/Other
 URL:		https://github.com/adrienverge/%{name}
 Source0:	https://github.com/adrienverge/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(systemd)
 
